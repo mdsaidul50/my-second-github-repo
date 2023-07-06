@@ -2,28 +2,53 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my first web</title>
-    <style>
-        p{color:rgb(227, 227, 240);
-        background-color: black;
-        border: 10px solid brown;
-        border-radius: 10px;
-        padding: 5px;
-        box-shadow: 50px wheat;
-        }
-        
-    </style>
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
-    <div>
-        <p>What is a paragraph? Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph.</p>
-    </div>
-    <div>
-        <p>
-            What is a paragraph? Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph.
-        </p>
-    </div>
+    <div class="main">
+        <div class="regist">
+            <form action="canection.php" method="POST">
+            <h2> Register From</h2>
+            <div class="application">
+            <label>First Name:</label>
+            <br>
+            <input type="text" name="fname" id="fname" placeholder="first name">
+            <br>
+            <label>Last Name</label>
+            <br>
+            <input type="text" name="lname" id="lname" placeholder="last name">
+            <br>
+            <label>Your Age:</label>
+            <br>
+            <input type="text" name="yage" id="yage" placeholder="Enter your age">
+            <br>
+            <label>Email:</label>
+            <br>
+            <input type="text" name="email" id="email" placeholder="Enter your email">
+            <br>
+            <label>Gender:</label>
+            <br>
+            <input type="radio" name="gender">
+            <span>Male</span>
+            <input type="radio" name="gender">
+            <span>Female</span>
+            <br><br>
+            <label> Known language:</label>
+            <br><br>
+            <input type="checkbox" name="box">
+            <span>Bangla</span>
+            <input type="checkbox" name="box">
+            <span>Englis</span>
+            <br><br>
+            <input type="submit" id="sub" value="submit" name="btn">
+</div>
+</from>
+        </div>
 
+
+    </div>
 </body>
 </html>

@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(img/img.avif);
+    
+
+}
+div.main{
+    width: 350px;
+    margin: 100px 262px 0px 300px;
+    
+}
+h2{
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+div.regist{
+    background-color: rgb(0,0,0,0.5);
+    font-size: 11px;
+    color: rgb(239, 239, 247);
+    font-family: sans-serif;
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 2px 2px 15px;
+    border: 3px solid chocolate;
+    height: 330px;
+}
+.application{
+    padding-left:20px;
+    font-family: sans-serif;
+    font-style: italic;
+}
+.application input{
+    padding: 5px 20px;
+    border-radius: 1px;
+}
+#sub{
+    background-color: coral;
+    border-radius: 10px 0px 10px 0px;
+}
